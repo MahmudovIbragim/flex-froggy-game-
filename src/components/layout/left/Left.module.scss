@@ -1,0 +1,49 @@
+.Left {
+  background-color: #43a047;
+  width: 100%;
+  .level_btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    .input {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      input {
+        font-size: 20px;
+        padding: 5px 10px 5px 15px;
+        width: 400px;
+        border-radius: 3px;
+        outline: none;
+        outline: none;
+      }
+    }
+    .btn {
+      display: flex;
+      justify-content: end;
+      margin-right: 150px;
+      margin-top: 100px;
+      button {
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        border: none;
+        padding: 8px 10px;
+        border-radius: 5px;
+        background-color: red;
+      }
+      .finish {
+        cursor: pointer;
+      }
+      .noFinish {
+        background-color: rgba(255, 0, 0, 0.438);
+      }
+    }
+  }
+}

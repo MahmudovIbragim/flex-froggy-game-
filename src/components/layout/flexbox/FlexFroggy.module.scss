@@ -1,0 +1,80 @@
+.Flex {
+  display: flex;
+  width: 100%;
+  width: 100%;
+  .Content {
+    display: flex;
+    padding-right: 50px;
+    width: 1000px;
+    height: 100vh;
+    background-color: #1f5768;
+    position: relative;
+    .frogyBox {
+      display: flex;
+      margin-top: 20px;
+      background-color: green;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      animation: pulse 1s infinite;
+      position: relative;
+      z-index: 2;
+    }
+    .finish {
+      position: absolute;
+      top: 10px;
+      left: 890px;
+      background-color: greenyellow;
+      border-radius: 50%;
+      width: 120px;
+      height: 120px;
+    }
+    .finish_one {
+      position: absolute;
+      top: 10px;
+      left: 500px;
+    }
+    .finish_two {
+      position: absolute;
+      top: 10px;
+      left: 380px;
+    }
+    .finish_th_one {
+      position: absolute;
+      top: 10px;
+      left: 110px;
+    }
+    .finish_th_two {
+      position: absolute;
+      top: 10px;
+      left: 440px;
+    }
+    .finish_th_th {
+      position: absolute;
+      top: 10px;
+      left: 770px;
+    }
+    .finish_fr_one {
+      position: absolute;
+      top: 10px;
+      left: 0px;
+    }
+    .finish_fr_two {
+      position: absolute;
+      top: 10px;
+      left: 440px;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(0.8);
+      }
+      50% {
+        transform: scale(0.9);
+      }
+      100% {
+        transform: scale(0.8);
+      }
+    }
+  }
+}
